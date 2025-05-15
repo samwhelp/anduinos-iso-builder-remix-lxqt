@@ -18,6 +18,19 @@ lxqt-themes
 lxqt-system-theme
 
 
+lxqt-config
+lxqt-admin
+
+
+lxqt-archiver
+
+
+screengrab
+
+
+xdg-desktop-portal-lxqt
+
+
 
 
 ##
