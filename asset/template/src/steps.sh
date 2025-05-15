@@ -9,6 +9,9 @@ set -u                  # treat unset variable as error
 export SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 source $SCRIPT_DIR/shared.sh
 source $SCRIPT_DIR/args.sh
+[ -f $SCRIPT_DIR/args-override.sh ] && . $SCRIPT_DIR/args-override.sh
+
+echo "${BUILD_UBUNTU_MIRROR}"
 
 function atcion_on_signal_interrupted() {
     print_ok "Action on signal interrupted..."
