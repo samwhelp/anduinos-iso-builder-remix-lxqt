@@ -112,10 +112,10 @@ make combine-via-git
 ### Build All
 
 
-> change dir to `~/work/anduinos-iso-builder-lxqt/iso-profile`
+> change dir to `~/work/anduinos-iso-builder-remix-lxqt/iso-profile`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-lxqt/iso-profile
+cd ~/work/anduinos-iso-builder-remix-lxqt/iso-profile
 ```
 
 
@@ -138,10 +138,10 @@ make build-fast
 ### Build Default
 
 
-> change dir to `~/work/anduinos-iso-builder-lxqt/iso-profile/src`
+> change dir to `~/work/anduinos-iso-builder-remix-lxqt/iso-profile/src`
 
 ``` sh
-cd ~/work/anduinos-iso-builder-lxqt/iso-profile/src
+cd ~/work/anduinos-iso-builder-remix-lxqt/iso-profile/src
 ```
 
 
